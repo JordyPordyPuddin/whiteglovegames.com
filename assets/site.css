@@ -55,3 +55,4 @@ section.tint{background:#efeedd}
 .signup label{font-weight:700;display:block;margin:20px 0 6px}.signup .row{display:flex;gap:8px;flex-wrap:wrap}
 .signup input{font:inherit;padding:12px 14px;border-radius:999px;border:1px solid #6b5d4a;background:#2a241c;color:#f3ece0;flex:1;min-width:220px}
 .signup .btn{margin:0}
+.todo,.signup{display:none!important}
