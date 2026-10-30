@@ -37,3 +37,21 @@ dl.facts{display:grid;grid-template-columns:max-content 1fr;gap:8px 20px}dl.fact
 @media(max-width:520px){dl.facts{grid-template-columns:1fr}dl.facts dd{margin-bottom:8px}}
 footer{background:var(--ink);color:#cfd6cf;padding:28px 0;font-size:15px}footer a{color:#fff}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* palette from world/style-lowpoly/palette.md (foliage, wood, horizon) */
+:root{--hedge:#4F5C20;--hedge-d:#2F3A12;--gold:#E08A4A;--ink:#1f1a12;--paper:#faf6ee}
+section.tint{background:#efeedd}
+.kicker{letter-spacing:.2em;text-transform:uppercase;font-size:13px;font-weight:700;color:var(--muted);margin:0 0 4px}
+.hero .kicker{color:#f0d9b5}
+.lead{font-size:1.15em}
+.pill{display:inline-block;font-size:12px;font-weight:700;background:#efeedd;color:var(--hedge-d);border-radius:999px;padding:2px 10px;vertical-align:middle}
+.thumb{border-radius:10px;margin-bottom:12px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.wide{border-radius:12px;margin:20px 0 8px;width:100%}
+.gnomes{display:flex;gap:12px;flex-wrap:wrap}.gnomes img{width:128px;background:#fff;border-radius:50%}
+.narrow{max-width:720px}
+.mb{background:#1c1914;color:#f3ece0}.mb .kicker,.mb .note{color:#b7ab98}
+.mb h1{font-family:Georgia,serif;font-size:clamp(40px,8vw,72px);margin:.1em 0}
+.tagline{font-family:Georgia,serif;font-style:italic;font-size:clamp(19px,2.6vw,24px);color:#f0d9b5}
+.mb .facts{margin:20px 0}
+.signup label{font-weight:700;display:block;margin:20px 0 6px}.signup .row{display:flex;gap:8px;flex-wrap:wrap}
+.signup input{font:inherit;padding:12px 14px;border-radius:999px;border:1px solid #6b5d4a;background:#2a241c;color:#f3ece0;flex:1;min-width:220px}
+.signup .btn{margin:0}

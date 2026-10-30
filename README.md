@@ -6,7 +6,7 @@ Static site for White Glove Game Studio (plain HTML/CSS, one tiny JS file for th
     python3 -m http.server 8080   # then open http://localhost:8080
 
 ## Status
-First draft. Everything marked with a yellow dashed **TODO** box needs a real value or Jordan's sign-off.
+First draft (local only). HedgeRow price/date are drafts pending Jordan's OK; press@ address is a placeholder. Everything marked with a yellow dashed **TODO** box needs a real value or Jordan's sign-off.
 Art is work-in-progress (art gate ~Nov 13, 2026): don't make the repo/site public until Jordan approves the images.
 
 ## Publish on GitHub Pages
@@ -31,6 +31,7 @@ DNS usually takes minutes to an hour. Check with `dig whiteglovegames.com +short
 Email forwarding (e.g. press@) is set up separately in Porkbun and uses MX records; it doesn't conflict with the above.
 
 ## Files
+- `merelybeasts/` (not in the nav; merelybeasts.com forwards here, see /workspace/merelybeasts-site/README.md; Porkbun URL forwarding is simplest)
 - `index.html`, `hedgerow/`, `joiner/`, `press/`, `about/`, `contact/`, `404.html`
 - `assets/site.css`, `assets/site.js`, `assets/img/` (web-size copies; originals untouched)
 - `CNAME`, `.nojekyll`
