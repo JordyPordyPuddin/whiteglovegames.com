@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" preserveAspectRatio="none"><!-- PLACEHOLDER: Bachari to replace (1280x560 backdrop) -->
-<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6d9a4"/><stop offset="1" stop-color="#fbf1dc"/></linearGradient>
-<filter id="p"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 .3 0 0 0 0 .2 0 0 0 0 .1 0 0 0 .08 0"/><feComposite in2="SourceGraphic" operator="in"/></filter></defs>
-<rect width="1280" height="560" fill="url(#s)"/>
-<path d="M0 330 Q320 250 640 300 T1280 280 V560 H0Z" fill="#a9b979"/>
-<path d="M0 400 Q400 340 760 390 T1280 370 V560 H0Z" fill="#8aa35e"/>
-<path d="M0 470 Q500 430 900 470 T1280 460 V560 H0Z" fill="#6f8d48"/>
-<rect width="1280" height="560" filter="url(#p)"/></svg>

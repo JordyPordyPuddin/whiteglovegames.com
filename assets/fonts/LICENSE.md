@@ -1,0 +1,1 @@
+EB Garamond (Georg Duffner, Octavio Pardo) and Inter (Rasmus Andersson) — both SIL Open Font License 1.1. Subset to Latin-1 for this site. Full OFL text: https://openfontlicense.org (include OFL.txt before launch).
