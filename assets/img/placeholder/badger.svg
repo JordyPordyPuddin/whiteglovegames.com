@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 60"><!-- PLACEHOLDER: Bachari to replace (90x60) -->
+<ellipse cx="45" cy="38" rx="32" ry="22" fill="#4a4a4a" stroke="#1d1d1d" stroke-width="3"/>
+<path d="M45 16 Q38 38 45 58 Q52 38 45 16" fill="#f4f1ea"/>
+<circle cx="18" cy="22" r="7" fill="#4a4a4a" stroke="#1d1d1d" stroke-width="3"/><circle cx="72" cy="22" r="7" fill="#4a4a4a" stroke="#1d1d1d" stroke-width="3"/>
+<circle cx="33" cy="36" r="3" fill="#111"/><circle cx="57" cy="36" r="3" fill="#111"/><ellipse cx="45" cy="50" rx="5" ry="3.5" fill="#111"/></svg>

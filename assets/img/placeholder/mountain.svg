@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300"><!-- PLACEHOLDER: Bachari to replace (360x300) -->
+<path d="M10 290 L150 70 Q180 30 210 70 L350 290Z" fill="#8a7b55" stroke="#3b3222" stroke-width="4" stroke-linejoin="round"/>
+<path d="M150 70 Q180 30 210 70 L195 95 L180 80 L165 98Z" fill="#efe7d4"/>
+<path d="M60 290 C120 240 90 200 160 170 S220 120 185 82" fill="none" stroke="#e0a526" stroke-width="5" stroke-dasharray="10 8" stroke-linecap="round"/>
+<g transform="translate(168 30)"><rect x="0" y="12" width="24" height="22" fill="#cfc6b0" stroke="#3b3222" stroke-width="3"/><path d="M-2 12h28l-4-8h-4v4h-4v-4h-4v4h-4v-4h-4z" fill="#cfc6b0" stroke="#3b3222" stroke-width="2"/><path d="M12 4V-14" stroke="#3b3222" stroke-width="2"/><path d="M12 -14l14 5-14 5z" fill="#c0392b"/></g>
+<circle cx="90" cy="250" r="16" fill="#6b8f4a"/><circle cx="280" cy="255" r="20" fill="#6b8f4a"/><circle cx="250" cy="200" r="12" fill="#7ea055"/></svg>
