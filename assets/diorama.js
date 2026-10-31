@@ -1,7 +1,7 @@
 /* v2 draft. Sound is OFF by default. SOUND HOOKS for Peter: drop files in assets/sfx/ with these names (.ogg);
    they only play after the visitor turns sound on (footer toggle, stored as localStorage wg-sound=1). */
 (function(){
-  var SFX={hover:'hover-soft',click:'object-click',gnome:'gnome-peek',badger:'badger-dusk',notify:'notify-submit'};
+  var SFX={hover:'hover-wiggle',click:'object-click',gnome:'gnome-poke',badger:'badger-peek',notify:'notify-submit'};
   var on=localStorage.getItem('wg-sound')==='1',cache={},R=window.WG_ROOT||'./';
   var still=matchMedia('(prefers-reduced-motion: reduce)').matches;
   function play(k){if(!on||!SFX[k])return;try{var a=cache[k]||(cache[k]=new Audio(R+'assets/sfx/'+SFX[k]+'.ogg'));a.currentTime=0;a.volume=.4;a.play().catch(function(){})}catch(e){}}
