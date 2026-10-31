@@ -25,7 +25,8 @@ html,body,a,button{cursor:url("img/placeholder/glove-cursor.svg") 10 4,auto}
 .burrow.peek img,.burrow:hover img,.burrow:focus-visible img{transform:translateY(10%)}
 .plain{padding:28px 0}.plain ul{list-style:none;padding:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .plain li{background:#fffaf0;border:2px solid #3b2a18;border-radius:var(--r);padding:14px 16px}.plain li a{font-weight:800}
-.ph{outline:2px dashed #c0392b55;outline-offset:2px}
+.obj:focus-visible,.gnome:focus-visible,.burrow:focus-visible{outline:2px solid #e0a52699;outline-offset:3px;border-radius:12px}
+.obj:focus:not(:focus-visible),.gnome:focus:not(:focus-visible),.burrow:focus:not(:focus-visible){outline:none}
 .price{display:inline-block;border:2px dashed var(--gold);border-radius:8px;padding:2px 10px;font-weight:800}
 .notify{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.notify input{flex:1 1 220px;font:inherit;padding:10px 12px;border:2px solid #3b2a18;border-radius:10px}.notify button{font:inherit;font-weight:800;background:var(--gold);border:0;border-radius:999px;padding:10px 18px}
 .mbcard{background:#fffaf0;border:2px solid #3b2a18;border-radius:var(--r);padding:20px;max-width:640px}
