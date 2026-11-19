@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="KingMaker, a table game from White Glove Games." />
+    <title>KingMaker · White Glove Games</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #15171c; font-family: system-ui, sans-serif; }
+      canvas { display: block; }
+      #km-title { position: fixed; left: 16px; top: 12px; color: rgba(250, 248, 242, 0.7); font-size: 12px; pointer-events: none; }
+      #km-status { position: fixed; left: 16px; right: 16px; bottom: 24px; text-align: center; color: rgba(250, 248, 242, 0.9); font-size: 15px; pointer-events: none; z-index: 30; }
+      #km-status.error { pointer-events: auto; }
+    </style>
+    <script type="module" crossorigin src="/kingmaker/assets/main-C_bmWRPK.js"></script>
+    <link rel="modulepreload" crossorigin href="/kingmaker/assets/gameView-fTVxFDz4.js">
+  </head>
+  <body>
+    <div id="km-title">KingMaker · White Glove Games</div>
+    <div id="km-status">Loading KingMaker…</div>
+    <div id="wg-hud-root"></div>
+  </body>
+</html>
