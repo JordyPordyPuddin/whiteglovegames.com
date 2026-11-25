@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="White Glove Games: the White Glove hands handling real KingMaker cards. A self-running card-handling showcase." />
+    <title>White Glove Games — Gloves: card handling</title>
+    <style>
+      :root { color-scheme: dark; --ink: rgba(250, 248, 242, 0.92); --dim: rgba(250, 248, 242, 0.6); --panel: rgba(18, 20, 25, 0.78); --gold: #e3c27a; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #15171c; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); }
+      #gl-canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+      #gl-fade { position: fixed; inset: 0; background: #15171c; opacity: 0; pointer-events: none; transition: opacity 0.28s ease; }
+      #gl-head { position: fixed; left: 16px; top: 12px; right: 16px; pointer-events: none; text-shadow: 0 1px 6px rgba(0,0,0,.6); }
+      #gl-head h1 { margin: 0; font-size: 15px; font-weight: 600; letter-spacing: 0.02em; }
+      #gl-head p { margin: 2px 0 0; font-size: 12px; color: var(--dim); }
+      #gl-cap { position: fixed; left: 16px; bottom: 132px; max-width: min(520px, calc(100% - 32px)); pointer-events: none; text-shadow: 0 1px 8px rgba(0,0,0,.7); }
+      #gl-cap b { display: block; font-size: 18px; color: var(--gold); font-weight: 600; }
+      #gl-cap span { font-size: 13px; color: var(--ink); }
+      #gl-bar { position: fixed; left: 0; right: 0; bottom: 0; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); background: linear-gradient(transparent, rgba(10,11,14,.88) 38%); display: flex; flex-direction: column; gap: 8px; }
+      #gl-ctl { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; }
+      button { font: inherit; font-size: 13px; color: var(--ink); background: var(--panel); border: 1px solid rgba(250,248,242,.22); border-radius: 999px; padding: 7px 14px; cursor: pointer; min-height: 36px; }
+      button:hover { border-color: var(--gold); }
+      button[aria-pressed="true"], button.on { border-color: var(--gold); color: var(--gold); }
+      #gl-seek { width: min(360px, 40vw); accent-color: var(--gold); }
+      #gl-list { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+      #gl-list button { white-space: nowrap; font-size: 12px; padding: 6px 12px; min-height: 32px; flex: 0 0 auto; }
+      #gl-msg { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; text-align: center; padding: 24px; font-size: 15px; background: #15171c; }
+      #gl-msg.show { display: flex; }
+      @media (max-width: 560px) { #gl-cap { bottom: 206px; } #gl-cap b { font-size: 16px; } #gl-seek { width: 100%; order: 9; } }
+    </style>
+    <script type="module" crossorigin src="/gloves/assets/gloves-D3EWmQl1.js"></script>
+  </head>
+  <body>
+    <canvas id="gl-canvas"></canvas>
+    <div id="gl-fade"></div>
+    <div id="gl-head"><h1>White Glove Games — Gloves: card handling</h1><p>KingMaker cards, in the White Glove hands</p></div>
+    <div id="gl-cap"><b id="gl-title">Loading…</b><span id="gl-text"></span></div>
+    <div id="gl-bar">
+      <div id="gl-ctl">
+        <button id="gl-prev" aria-label="Previous motion">‹ Prev</button>
+        <button id="gl-play" aria-label="Play or pause" aria-pressed="false">Pause</button>
+        <button id="gl-next" aria-label="Next motion">Next ›</button>
+        <input id="gl-seek" type="range" min="0" max="1000" value="0" aria-label="Position in this motion" />
+        <button id="gl-speed" aria-label="Playback speed">1×</button>
+        <button id="gl-view" aria-label="Camera view">View: seated</button>
+      </div>
+      <div id="gl-list" role="list"></div>
+    </div>
+    <div id="gl-msg"></div>
+  </body>
+</html>
