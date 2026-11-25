@@ -1,0 +1,10 @@
+{
+  "name": "KingMaker · White Glove Games",
+  "short_name": "KingMaker",
+  "start_url": "./?game=setup",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#15171c",
+  "theme_color": "#15171c"
+}
