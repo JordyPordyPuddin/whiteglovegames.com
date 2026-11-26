@@ -1,0 +1,146 @@
+{
+ "general": {
+  "v": "3959806f55",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "knight": {
+  "v": "ba47169dfa",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "priest": {
+  "v": "eec109bd70",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "saint": {
+  "v": "5b76e77620",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "rogue": {
+  "v": "20e61f4265",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "spymaster": {
+  "v": "690f663a5a",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "duchess": {
+  "v": "e064b4d9db",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "dilettante": {
+  "v": "cffccd7753",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "capitalist": {
+  "v": "c11d1f592f",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "innkeeper": {
+  "v": "0835521ea3",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "farm_hand": {
+  "v": "c1ff6f1f12",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ },
+ "fool": {
+  "v": "5fcd840a12",
+  "slices": 38,
+  "footprint": [
+   30,
+   24
+  ],
+  "atlas": [
+   1140,
+   888
+  ]
+ }
+}
