@@ -1,0 +1,21 @@
+{
+ "indicators": {
+  "v": "75ffd55cd1",
+  "atlas": [
+   324,
+   325
+  ],
+  "stacks": 25
+ },
+ "skulls": {
+  "v": "8a794bbaec",
+  "atlas": [
+   816,
+   51
+  ],
+  "stacks": 4
+ },
+ "runtime": {
+  "v": "f750a650d1"
+ }
+}
